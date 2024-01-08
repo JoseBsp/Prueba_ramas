@@ -10,7 +10,8 @@ namespace PruebaGit.Controllers
         [HttpGet("Prueba")]
         public IActionResult Prueba()
         {
-            return Ok();
+            string prueba = "prueba";
+            return BadRequest();
         }
     }
 }
