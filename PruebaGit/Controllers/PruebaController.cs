@@ -7,5 +7,10 @@ namespace PruebaGit.Controllers
     [ApiController]
     public class PruebaController : ControllerBase
     {
+        [HttpGet("Prueba")]
+        public IActionResult Prueba()
+        {
+            return Ok();
+        }
     }
 }
